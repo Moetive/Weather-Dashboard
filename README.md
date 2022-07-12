@@ -37,6 +37,7 @@ The following image shows the web application's appearance and functionality:
 
 
 ## Technologies Used
+```
 jQuery
 AJAX
 JSON
@@ -45,6 +46,7 @@ Bootstrap
 HTML
 CSS
 JS
+```
 ## GitHub Link
 https://github.com/Moetive/
 - - -
