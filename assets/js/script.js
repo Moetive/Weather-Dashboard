@@ -17,7 +17,8 @@ $.ajax({
     //storing responses in html
     var cityNameEl = $("<h2>").text(response.name);
     var displayMainDate = cityNameEl.append(" " + mainDate);
-    var tempEL = $("<p>").text("Tempraturer: " + response.main.temp);
+    var tempEL = $("<p>").text("Temperature: " + response.main.temp);
+    console.log(tempEL)
     var humEl = $("<p>").text("Humidity: " + response.main.humidity);
     var windEl = $("<p>").text("Wind Speed: " + response.wind.speed);
     var currentweather = response.weather[0].main;
